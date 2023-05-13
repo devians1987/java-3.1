@@ -3,15 +3,13 @@ public class Main {
     public static void main(String[] args) {
 
 
-
         int account = 700;
         int replenishment = 400;
         int bonus;
 
         if (account + replenishment > 1000) {
             bonus = replenishment / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
 
