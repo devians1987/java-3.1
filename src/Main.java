@@ -8,7 +8,7 @@ public class Main {
         int bonus;
 
         if (account + replenishment > 1000) {
-            bonus = replenishment / 100;
+            bonus = (account + replenishment) / 100;
         } else {
             bonus = 0;
         }
